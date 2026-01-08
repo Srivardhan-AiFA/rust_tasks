@@ -4,6 +4,7 @@ pub struct Task {
     pub title: String,
     pub completed: bool,
 }
+
 impl Task {
     pub fn new(id: u32, title: String) -> Task {
         Task {

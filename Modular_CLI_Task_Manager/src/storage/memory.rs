@@ -16,11 +16,11 @@ impl TaskStore {
         }
     }
 
-    pub fn add_task(&mut self, title: String) -> Task {
+    pub fn add_task(&mut self, title: String) -> &Task {
         let task = Task::new(self.next_id, title);
         self.next_id += 1;
-        self.tasks.push(task.clone());
-        task
+        self.tasks.push(task);
+        self.tasks.last().unwrap()
     }
 
     pub fn list_tasks(&self) -> &[Task] {
@@ -33,7 +33,7 @@ impl TaskStore {
                 task.mark_done();
                 Ok(task)
             }
-            None => Err(TaskNotFound(id)),
+            None => Err(TaskNotFound(1)),
         }
     }
 }

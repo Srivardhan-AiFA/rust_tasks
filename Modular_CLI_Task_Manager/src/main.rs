@@ -24,10 +24,10 @@ fn main() {
 }
 
 fn print_tasks(tasks: &[Task]) {
-    if tasks.len() > 0 {
+    if !tasks.is_empty() {
         println!("Total Tasks");
         for (idx, task) in tasks.iter().enumerate() {
-            println!("{} {:?}", idx, task);
+            println!("{} {:?}", idx + 1, task);
         }
     } else {
         println!("No task to display")
