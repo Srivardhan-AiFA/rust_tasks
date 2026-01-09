@@ -10,7 +10,7 @@ fn main() {
     let email_service = NotificationService::new(EmailNotifier);
     let is_email_send_sucessfully = email_service.notify(
         "srivardhan@gmail.com",
-        "This is an reminder email about the meeting we have on 9th of Friday",
+        "This is an updation email about the meeting we have on 9th of Friday that is shifited to 10th of Friday same time!",
     );
     let email_status = match is_email_send_sucessfully {
         Ok(s) => {

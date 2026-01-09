@@ -1,0 +1,1 @@
+/home/aifauser139/rust/rust-github/Lifetimes_Borrowed_Registry/target/debug/Lifetimes_Borrowed_Registry: /home/aifauser139/rust/rust-github/Lifetimes_Borrowed_Registry/src/main.rs /home/aifauser139/rust/rust-github/Lifetimes_Borrowed_Registry/src/record.rs /home/aifauser139/rust/rust-github/Lifetimes_Borrowed_Registry/src/registry.rs
