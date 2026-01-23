@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["get_file_contents","search_content_case_insenstive","search_content_case_senstive"],"struct":["Config"]};

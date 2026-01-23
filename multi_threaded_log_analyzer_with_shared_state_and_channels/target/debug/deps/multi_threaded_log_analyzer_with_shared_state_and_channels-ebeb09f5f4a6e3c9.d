@@ -1,0 +1,5 @@
+/home/aifauser139/rust/rust-github/multi_threaded_log_analyzer_with_shared_state_and_channels/target/debug/deps/multi_threaded_log_analyzer_with_shared_state_and_channels-ebeb09f5f4a6e3c9.d: src/main.rs
+
+/home/aifauser139/rust/rust-github/multi_threaded_log_analyzer_with_shared_state_and_channels/target/debug/deps/libmulti_threaded_log_analyzer_with_shared_state_and_channels-ebeb09f5f4a6e3c9.rmeta: src/main.rs
+
+src/main.rs:

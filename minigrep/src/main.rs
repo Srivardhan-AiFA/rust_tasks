@@ -6,9 +6,9 @@ use minigrep::search_content_case_insenstive;
 use minigrep::search_content_case_senstive;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
+    let args = env::args();
 
-    let config = Config::new(&args).unwrap_or_else(|err| {
+    let config = Config::new(args).unwrap_or_else(|err| {
         eprintln!("Unable to get file contents: {}", err);
         process::exit(1)
     });

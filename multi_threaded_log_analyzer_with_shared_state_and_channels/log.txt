@@ -1,0 +1,1440 @@
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete
+INFO Server starting on port 8080
+INFO Loading configuration files
+WARN Configuration file config.dev.toml not found
+INFO Falling back to default configuration
+INFO Initializing database connection pool
+ERROR Failed to connect to database
+ERROR Retrying database connection
+INFO Database connection established
+INFO Starting background worker threads
+INFO Worker thread 1 initialized
+INFO Worker thread 2 initialized
+INFO Worker thread 3 initialized
+INFO Worker thread 4 initialized
+WARN Disk usage exceeded 70 percent
+INFO Cleaning temporary files
+INFO Temporary files cleaned
+WARN Disk usage exceeded 80 percent
+ERROR Disk write failure detected
+INFO Attempting disk recovery
+INFO Disk recovery successful
+INFO Listening for incoming HTTP requests
+INFO GET /health 200 OK
+INFO GET /api/users 200 OK
+INFO POST /api/login 401 Unauthorized
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+WARN Failed login attempt detected
+ERROR Account locked due to multiple failures
+INFO POST /api/login 403 Forbidden
+INFO GET /api/dashboard 200 OK
+INFO Processing background job id=42
+INFO Processing background job id=43
+INFO Processing background job id=44
+ERROR Background job id=44 failed
+WARN Retrying background job id=44
+INFO Background job id=44 completed
+INFO User session created user_id=1001
+INFO User session created user_id=1002
+INFO User session created user_id=1003
+WARN Session nearing expiration user_id=1002
+INFO Session refreshed user_id=1002
+INFO Cache miss for key=user_1001
+INFO Cache miss for key=user_1002
+INFO Cache hit for key=user_1003
+WARN Cache size exceeded threshold
+INFO Cache eviction started
+INFO Cache eviction completed
+ERROR Cache eviction failed for key=session_999
+INFO Restarting cache subsystem
+INFO Cache subsystem restarted
+INFO Scheduled task cleanup started
+INFO Scheduled task cleanup finished
+INFO Scheduled task backup started
+ERROR Scheduled task backup failed
+WARN Retrying scheduled task backup
+INFO Scheduled task backup completed
+INFO System metrics collected
+INFO CPU usage 45 percent
+INFO Memory usage 62 percent
+WARN Memory usage exceeded 75 percent
+ERROR Out of memory condition detected
+INFO Attempting memory cleanup
+INFO Memory cleanup successful
+INFO Graceful shutdown initiated
+INFO Shutting down worker threads
+INFO Worker thread 1 stopped
+INFO Worker thread 2 stopped
+INFO Worker thread 3 stopped
+INFO Worker thread 4 stopped
+INFO Closing database connections
+INFO Database connections closed
+INFO Server shutdown complete

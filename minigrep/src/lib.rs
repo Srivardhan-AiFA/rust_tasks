@@ -1,4 +1,4 @@
-use std::env;
+use std::env::{self, Args};
 use std::error::Error;
 use std::fs;
 
@@ -9,12 +9,21 @@ pub struct Config {
 }
 
 impl Config {
-    pub fn new(args: &[String]) -> Result<Config, &'static str> {
+    pub fn new(mut args: Args) -> Result<Config, &'static str> {
         if args.len() < 3 {
             return Err("Please provide the required arguments");
         }
-        let search_string = args[1].clone();
-        let file_name = args[2].clone();
+        args.next();
+
+        let search_string = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Please provide a query to search"),
+        };
+
+        let file_name = match args.next() {
+            Some(arg) => arg,
+            None => return Err("Please provide a file to search the query"),
+        };
 
         let is_case_sensitive = env::var("CASE_SENSITIVE").is_ok();
 
@@ -35,13 +44,10 @@ pub fn search_content_case_senstive<'a>(
     search_string: &str,
     file_content: &'a str,
 ) -> Vec<&'a str> {
-    let mut result = Vec::new();
-    for line in file_content.lines() {
-        if line.contains(search_string) {
-            result.push(line);
-        }
-    }
-    result
+    file_content
+        .lines()
+        .filter(|line| line.contains(search_string))
+        .collect()
 }
 
 pub fn search_content_case_insenstive<'a>(
@@ -49,13 +55,10 @@ pub fn search_content_case_insenstive<'a>(
     file_content: &'a str,
 ) -> Vec<&'a str> {
     let search_string = search_string.to_lowercase();
-    let mut result = Vec::new();
-    for line in file_content.lines() {
-        if line.to_lowercase().contains(&search_string) {
-            result.push(line);
-        }
-    }
-    result
+    file_content
+        .lines()
+        .filter(|line| line.to_lowercase().contains(&search_string))
+        .collect()
 }
 
 // Tests
