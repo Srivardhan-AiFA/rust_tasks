@@ -22,7 +22,7 @@ fn main() {
     let worker_count = 4;
     let mut handles = Vec::new();
 
-    for _ in 0..worker_count {
+    for i in 0..worker_count {
         let rx = Arc::clone(&rx);
         let counts = Arc::clone(&shared_state);
 
@@ -62,6 +62,6 @@ fn main() {
 
     let result = shared_state.lock().unwrap();
     for (le, count) in result.iter() {
-        println!("{:<5} -> {}", le, count);
+        println!("{} -> {}", le, count);
     }
 }
