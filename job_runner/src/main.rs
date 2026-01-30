@@ -5,15 +5,20 @@ use trpl::Html;
 
 pub trait Job: Send + Sync {
     fn name(&self) -> &str;
-    fn is_cpu_bound(&self) -> bool;
+    fn as_async(self: Arc<Self>) -> Option<Arc<dyn AsyncJob>> {
+        None
+    }
+    fn as_blocking(self: Arc<Self>) -> Option<Arc<dyn BlockingJob>> {
+        None
+    }
 }
 
 #[async_trait]
-pub trait AsyncJob {
+pub trait AsyncJob: Send + Sync {
     async fn run_async(&self) -> String;
 }
 
-pub trait BlockingJob {
+pub trait BlockingJob: Send + Sync {
     fn run_blocking(&self) -> String;
 }
 
@@ -26,8 +31,8 @@ impl Job for SleepJob {
         "Sleep Job"
     }
 
-    fn is_cpu_bound(&self) -> bool {
-        false
+    fn as_async(self: Arc<Self>) -> Option<Arc<dyn AsyncJob>> {
+        Some(self)
     }
 }
 
@@ -48,8 +53,8 @@ impl Job for SumJob {
         "Sum Job"
     }
 
-    fn is_cpu_bound(&self) -> bool {
-        true
+    fn as_blocking(self: Arc<Self>) -> Option<Arc<dyn BlockingJob>> {
+        Some(self)
     }
 }
 
@@ -72,8 +77,8 @@ impl Job for FetchJob {
         "Fetch Job"
     }
 
-    fn is_cpu_bound(&self) -> bool {
-        false
+    fn as_async(self: Arc<Self>) -> Option<Arc<dyn AsyncJob>> {
+        Some(self)
     }
 }
 
@@ -88,45 +93,53 @@ impl AsyncJob for FetchJob {
     }
 }
 
+enum JobHandler {
+    Async(JoinHandle<()>),
+    Blocking(thread::JoinHandle<()>),
+}
+
 pub struct JobRunner {
-    async_handlers: Vec<JoinHandle<()>>,
-    thread_handlers: Vec<thread::JoinHandle<()>>,
+    handlers: Vec<JobHandler>,
 }
 
 impl JobRunner {
     pub fn new() -> Self {
         Self {
-            async_handlers: Vec::new(),
-            thread_handlers: Vec::new(),
+            handlers: Vec::new(),
         }
     }
 
-    pub fn submit_async_job<J>(&mut self, job: Arc<J>)
-    where
-        J: Job + AsyncJob + 'static,
-    {
+    pub fn submit(&mut self, job: Arc<dyn Job>) {
         let name = job.name().to_string();
 
-        let handle = tokio::spawn(async move {
-            let result = job.run_async().await;
-            println!("[Async] {} finished: {}", name, result);
-        });
+        if let Some(blocking_job) = job.clone().as_blocking() {
+            let handle = thread::spawn(move || {
+                let result = blocking_job.run_blocking();
+                println!("[Blocking] {} finished: {}", name, result);
+            });
 
-        self.async_handlers.push(handle);
+            self.handlers.push(JobHandler::Blocking(handle));
+        } else if let Some(async_job) = job.clone().as_async() {
+            let handle = tokio::spawn(async move {
+                let result = async_job.run_async().await;
+                println!("[Async] {} finished: {}", name, result);
+            });
+
+            self.handlers.push(JobHandler::Async(handle));
+        }
     }
 
-    pub fn submit_blocking_job<J>(&mut self, job: Arc<J>)
-    where
-        J: Job + BlockingJob + 'static,
-    {
-        let name = job.name().to_string();
-
-        let handle = thread::spawn(move || {
-            let result = job.run_blocking();
-            println!("[Blocking] {} finished: {}", name, result);
-        });
-
-        self.thread_handlers.push(handle);
+    pub async fn run(self) {
+        for handle in self.handlers {
+            match handle {
+                JobHandler::Async(ha) => {
+                    ha.await.unwrap();
+                }
+                JobHandler::Blocking(hb) => {
+                    hb.join().unwrap();
+                }
+            }
+        }
     }
 }
 
@@ -140,17 +153,11 @@ async fn main() {
         url: "https://axna.vercel.app/".to_string(),
     });
 
-    runner.submit_async_job(sleep_job);
-    runner.submit_async_job(fetch_job);
-    runner.submit_blocking_job(sum_job);
+    runner.submit(sleep_job);
+    runner.submit(fetch_job);
+    runner.submit(sum_job);
 
-    for handle in runner.async_handlers {
-        handle.await.unwrap();
-    }
-
-    for handle in runner.thread_handlers {
-        handle.join().unwrap();
-    }
+    runner.run().await;
 
     println!("Job execution completed");
 }
