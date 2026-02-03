@@ -14,7 +14,7 @@ async fn main() {
 
     scheduler.submit(Arc::new(SleepTask { seconds: 2 }));
     scheduler.submit(Arc::new(HttpFetchTask {
-        url: "https://example.com".to_string(),
+        url: "https://axna.vercel.app".to_string(),
     }));
     scheduler.submit(Arc::new(HashTask {
         input: "hello".to_string(),
@@ -22,6 +22,5 @@ async fn main() {
     scheduler.submit(Arc::new(HashTask {
         input: "rust".to_string(),
     }));
-
-    tokio::time::sleep(std::time::Duration::from_secs(3)).await;
+    scheduler.wait_for_async_to_complete().await
 }
