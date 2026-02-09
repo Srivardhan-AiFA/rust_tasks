@@ -25,7 +25,7 @@ pub async fn protected_route(mut req: Request<Body>, next: Next) -> Result<Respo
         AppError::InvalidCredentials
     })?;
 
-    let claims = verify_jwt(token);
+    let claims = verify_jwt(token)?;
 
     info!(user = %claims.sub, "JWT validated successfully");
 

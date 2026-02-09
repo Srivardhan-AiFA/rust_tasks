@@ -3,6 +3,8 @@ use jsonwebtoken::{decode, encode, DecodingKey, EncodingKey, Header, Validation}
 use serde::{Deserialize, Serialize};
 use tracing::{debug, warn};
 
+use crate::errors::error::AppError;
+
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Claims {
     pub sub: String,
@@ -36,7 +38,7 @@ pub fn create_jwt(name: &str) -> String {
     token
 }
 
-pub fn verify_jwt(token: &str) -> Claims {
+pub fn verify_jwt(token: &str) -> Result<Claims, AppError> {
     debug!("Verifying JWT");
 
     let data = decode::<Claims>(
@@ -44,10 +46,10 @@ pub fn verify_jwt(token: &str) -> Claims {
         &DecodingKey::from_secret(JWT_SECRET),
         &Validation::default(),
     )
-    .unwrap_or_else(|err| {
+    .map_err(|err| {
         warn!(error = %err, "JWT verification failed");
-        panic!("Invalid JWT");
-    });
+        AppError::InvalidCredentials
+    })?;
 
     debug!(
         user = %data.claims.sub,
@@ -55,5 +57,5 @@ pub fn verify_jwt(token: &str) -> Claims {
         "JWT verified successfully"
     );
 
-    data.claims
+    Ok(data.claims)
 }
