@@ -9,12 +9,8 @@ mod utils;
 use app::create_app;
 use state::AppState;
 
-use crate::utils::logging::init_tracing;
-
 #[tokio::main]
 async fn main() {
-    init_tracing();
-
     tracing::info!("🚀 Starting server");
 
     let state = AppState::new();

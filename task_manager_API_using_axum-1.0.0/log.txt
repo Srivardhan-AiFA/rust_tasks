@@ -1,0 +1,4 @@
+[2m2026-02-10T12:00:00.277386Z[0m [32m INFO[0m [2mtask_manager_API_using_axum[0m[2m:[0m 🚀 Starting server
+[2m2026-02-10T12:00:00.277461Z[0m [32m INFO[0m [2mtask_manager_API_using_axum::app[0m[2m:[0m Building application router
+[2m2026-02-10T12:00:00.277676Z[0m [32m INFO[0m [2mtask_manager_API_using_axum::app[0m[2m:[0m Registering protected routes
+[2m2026-02-10T12:00:00.278043Z[0m [32m INFO[0m [2mtask_manager_API_using_axum[0m[2m:[0m 📡 Listening on http://0.0.0.0:3000

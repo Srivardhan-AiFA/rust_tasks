@@ -1,0 +1,13 @@
+[Unit]
+Description=Task Manager API using Axum
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/task_manager_API_using_axum
+User=aifauser139
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
