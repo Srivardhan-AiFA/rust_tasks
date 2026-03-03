@@ -1,0 +1,9 @@
+[package]
+name = "SSL_reqwest_check"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.6.20"
+axum-server = { version = "0.5.1", features = ["tls-rustls"] }
+tokio = { version = "1.37", features = ["macros", "rt-multi-thread"] }

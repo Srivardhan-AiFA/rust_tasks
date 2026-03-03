@@ -2,10 +2,7 @@ mod handlers;
 mod model;
 mod state;
 
-use axum::{
-    Router,
-    routing::{get, post},
-};
+use axum::{Router, routing::post};
 use handlers::{create_user, get_users};
 use mongodb::{Client, options::ClientOptions};
 use state::AppState;
